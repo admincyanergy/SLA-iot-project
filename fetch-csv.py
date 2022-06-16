@@ -11,7 +11,7 @@ res = requests.get(URL)
 data = res.text
 
 csv_path = os.path.abspath(__file__)
-csv_path = f'{os.sep.join(csv_path.split(os.sep)[:-1])}{os.sep}7_day_outlook.csv'
+csv_path = f'{os.sep.join(csv_path.split(os.sep)[:-1])}{os.sep}ameo.csv'
 
 print(csv_path)
 
